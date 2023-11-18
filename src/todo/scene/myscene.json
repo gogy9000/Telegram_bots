@@ -1,0 +1,29 @@
+{
+  "scene1": {
+    "replies": [
+      {"type": "text", "message":"scene1"}
+    ],
+    "buttons": [
+      {"text": "scene1", "callback_data": "scene1"},
+      {"text": "scene2", "callback_data": "scene2"}
+    ]
+  },
+  "scene2": {
+    "replies": [
+      {"type": "text", "message":"scene2"}
+    ],
+    "buttons": [
+      {"text": "scene3", "callback_data": "scene3"},
+      {"text": "scene1", "callback_data": "scene1"}
+    ]
+  },
+  "scene3": {
+    "replies": [
+      {"type": "text", "message":"scene3"}
+    ],
+    "buttons": [
+      {"text": "scene2", "callback_data": "scene2"},
+      {"text": "scene1", "callback_data": "scene1"}
+    ]
+  }
+}
